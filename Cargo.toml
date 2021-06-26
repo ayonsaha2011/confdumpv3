@@ -1,0 +1,17 @@
+[package]
+name = "confdumpv3"
+version = "0.1.0"
+authors = ["Ayon <ayonsaha2011@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wmi = { path = "./wmi-rs", features = ["async-query"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+tokio = { version = "0.2.22", features = ["full"] }
+clap = "*"
+uuid = { version = "0.8", features = ["serde", "v4"] }
+chrono = "0.4"

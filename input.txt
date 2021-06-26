@@ -1,0 +1,10 @@
+Win32_OperatingSystem
+Win32_ComputerSystem
+Win32_Service
+Win32_SystemDriver
+Win32_UserDesktop
+CIM_MonitorSetting
+Win32_DeviceSettings
+Win32_SystemSetting
+CIM_VideoSetting
+Win32_VideoSettings
